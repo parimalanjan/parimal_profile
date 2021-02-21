@@ -1,51 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 body {
-    background-color:#222831;
+    margin: 0;
+    background-color: #252525;
     text-align: center;
     font-family: 'Merriweather', serif;
-     color: #eeeeee;
+     color: #64dfdf;
      padding-left: 5rem;
      padding-right: 5rem;
 }
 
-.top-container {
-    width: 100%;
-    padding: 10px;
-    position: relative;
-    padding-top: 100px;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 600px;
-    top: 50px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 600px;
-    bottom: 300px;
-}
-
-.seg {
-    text-decoration-line: underline;
-  }
-#hi {
-    height: 10%;
-    width: 10%;
-    margin: 0 auto 0 auto;
-
-}
-
-
-h1 {
+h1  {
+    margin: 0;
     width: 40%;
     margin: 0 auto 0 auto;
     font-family: 'Great Vibes', cursive;
@@ -53,7 +17,24 @@ h1 {
     color:#00adb5
 }
 
-.top {
+.hi {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+h2 {font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color:#00adb5;
+    font-weight: normal}
+
+h3 {
+    text-align: left;
+    color: #00adb5;
+}
+
+.top-container{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.5rem;
@@ -62,92 +43,101 @@ h1 {
     line-height: 200%;
 }
 
-h2{
-    font-family: 'Abril Fatface', cursive;
-    text-align: center;
-    color:#00adb5;
-    font-weight: normal;
-    padding-bottom: 2.5rem;
+hr {
+    clear: both;
 }
 
-h3, th {
+
+.skill-row ,.soft, .mid-pic {
+    display: inline;
+    width: auto;
     text-align: left;
-    color: #00adb5;
-    padding-bottom: 0.6rem;
-
+    float: left;
+    margin-left: 10%;
 }
-
-.skills {
-  display: flex;
-}
-
-.skill-row {
-  text-align: left;
-  flex: 0 0 20%;
-  padding-left: 15rem;
-}
-
-.mid-pic {
-  size: 35%;
-  text-align: left;
-  flex: 0 0 20%;
-  padding-left: 5rem;
-
-}
-
-.soft {
-  text-align: left;
-  flex: 0 0 40%;
-  padding-left: 10rem;
-  padding-top: 2rem;
-}
-
 td {
-  padding-right: 5rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    vertical-align: top;
 }
 
-.employment, .education {
-  position: relative;
+.employment {
+    clear: both;
 }
 
-.my-emp {
-
+.emp-pic, .emp-hist {
+    display: inline;
+    width: auto;
+    text-align: left;
+    float: left;
+    padding-top: 2rem;
 }
 
 .emp-pic {
-  position: absolute;
-  margin-top: -7rem;
-  padding: 0;
+    margin-top: -6rem;
+    margin-left: 10%;
+}
+.schools, .sch {
+    display: inline;
+    width: auto;
+    text-align: left;
+    float: left;
+}
+.schools {
+    padding-top: 6rem;
+    margin-left: 10%;
+}
+.footer-link {
+  background-color: rgb(0, 110, 255);
+}
+
+.contact-me-main {
+    text-align: center;
+}
+
+.contact-me {
+  text-align: left;
+}
+
+.cont-name {
+    text-align: center;
+}
+.nam {
+    margin-right: 0.4rem;
+}
+textarea {
+  vertical-align: top;
+  text-align: left;
+  width: auto;
+}
+.emal {
+  margin-right: 2.5rem;
+}
+
+.chi {
+  height: 150%;
+  margin: 0 auto 0 auto;
+}
+.message {
+  margin-right: 1.2rem;
+}
+
+.sub {
+  margin-left: 25%;
+}
+
+th  {
+    text-align: left;
+    color: #00adb5;
+    padding-bottom: 2rem;
+    padding-right: 7rem;
+    font-weight: 800;
 
 }
-.emp-hist {
-  text-align: left;
-  position: absolute;
-  margin: 0 0 0 35rem;
+.last {
+    text-align: center;
 }
 
 a {
-  color: #eeeeee;
-}
-td , th{
-  vertical-align: top;
-  padding-bottom: 0.5rem;
-}
-
-.l-2, .l-3 {
-  margin-top: 20rem;
-}
-.schools {
-  position: absolute;
-  margin: 0rem 0 0 0;
-  text-align: left;
-}
-
-.sch {
-  position: absolute;
-  margin: -5rem 0 0 25rem;
-}
-
-.footer-link {
-  background-color: blue;
+     color: #64dfdf;
 }
